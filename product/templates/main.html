@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>coffee</h1>
+    {% for category in categories %}
+        <input type='checkbox'/>{{ category.name }}
+        <br>
+    {% endfor %}
+</body>
+</html>
